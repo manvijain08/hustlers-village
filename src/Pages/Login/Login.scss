@@ -1,0 +1,146 @@
+.card{
+    //  margin: 5em 30em;
+    //  border: 1px solid black;
+     border-radius: 5px;
+     padding: 0em 0em;
+     text-align: center;
+     box-shadow: 1px 1px 1px #878787;
+    }
+      
+    .card_cont {
+        margin: 0 6em;
+    }
+    
+    .heading {
+        font-size: 36px;
+        color: black;
+        // font-size: 20px;
+        // font-weight: 700;
+      }
+    
+    hr {
+        width: 5rem;
+        height: 0;
+        margin: 0 5px;
+        color: #707070;
+    } 
+    
+    .option {
+        color: #1A202C;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 1em
+        
+    }
+    
+    // .subhead {
+        
+    // }
+    
+    .social {
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 10px;
+        align-items: baseline;
+        margin:0 10px;
+        font-size: 14px
+    }
+    
+    .social:hover {
+        box-shadow: 1px 2px 1px #878787;;
+    }
+    
+    #google {
+        background-color: #F7FAFC;
+        color: #2D3748;
+    }
+    
+    #github {
+        background-color: #2D3748;
+        color: #FFFFFF;
+    }
+    
+    #dribbble {
+        background-color: #ED64A6;
+        color: #FFFFFF;
+    }
+    
+    .input {
+        text-align: left;
+    }
+    
+    .input_title {
+        font-size: 14px;
+        font-weight: 600
+    }
+    
+    .input_titleb {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 600
+        
+    }
+    
+    .field {
+        background-color: #EDF2F7;
+        border: none;
+        padding: 1em 10em 1em 1em;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 100%;
+    
+    }
+    
+    .field:hover {
+        box-shadow: 1px 2px 1px #878787;;
+    }
+    
+    #forgot {
+        color: #1B9CFC;
+        font-weight: 500;
+    }
+    
+    
+    .login {
+        background-color: #2D3748;
+        border: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        border-radius: 5px; 
+        align-items: baseline;
+        margin-top: 10px;
+        padding: 10px 80px;
+        width: 100%;
+    }
+    
+    .login:hover {
+        box-shadow: 1px 2px 1px #878787;;
+    }
+    
+    #arrow {
+        width: 10px;
+    }
+    
+    .note {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .body {
+        width: 80%;
+        margin: 2rem auto;
+    }
+    
+    .container{
+        box-shadow: 1px 2px 1px #878787;
+        text-align: center;
+        width: 50%;
+    }
