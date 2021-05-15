@@ -30,7 +30,7 @@ function Login() {
        <form className='form'> 
        <div className="email">
           <label className='e-text'>Email</label>
-         <input className='e-inp' type="email" />
+         <input className='e-inp' type="email" placeholder="xyz@gmail.com" />
         </div>
 
         <div className="Password">
