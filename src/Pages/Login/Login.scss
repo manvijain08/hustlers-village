@@ -1,146 +1,138 @@
-.card{
-    //  margin: 5em 30em;
-    //  border: 1px solid black;
-     border-radius: 5px;
-     padding: 0em 0em;
-     text-align: center;
-     box-shadow: 1px 1px 1px #878787;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  margin: 50px 200px 50px 430px;
+  height: 500px;
+  width: 500px;
+
+
+.Register {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    // justify-content: center;
+    .head-l {
+      margin-top: 50px;
     }
-      
-    .card_cont {
-        margin: 0 6em;
-    }
-    
-    .heading {
-        font-size: 36px;
-        color: black;
-        // font-size: 20px;
-        // font-weight: 700;
-      }
-    
-    hr {
-        width: 5rem;
-        height: 0;
-        margin: 0 5px;
-        color: #707070;
-    } 
-    
-    .option {
-        color: #1A202C;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 600;
-        margin-top: 1em
-        
-    }
-    
-    // .subhead {
-        
-    // }
-    
+
     .social {
-        font-weight: 500;
-        border: none;
-        border-radius: 8px;
-        padding: 8px 10px;
-        align-items: baseline;
-        margin:0 10px;
-        font-size: 14px
-    }
-    
-    .social:hover {
-        box-shadow: 1px 2px 1px #878787;;
-    }
-    
-    #google {
-        background-color: #F7FAFC;
-        color: #2D3748;
-    }
-    
-    #github {
-        background-color: #2D3748;
-        color: #FFFFFF;
-    }
-    
-    #dribbble {
-        background-color: #ED64A6;
-        color: #FFFFFF;
-    }
-    
-    .input {
-        text-align: left;
-    }
-    
-    .input_title {
-        font-size: 14px;
-        font-weight: 600
-    }
-    
-    .input_titleb {
-        margin-top: 10px;
         display: flex;
-        justify-content: space-between;
-        font-size: 14px;
-        font-weight: 600
-        
+        justify-content: center;
+        margin: 20px;
+
+        .Google {
+            // display: flex;
+            background: #f7fafc;
+            color: #2d3748;
+            margin: 10px;
+            padding: 2px 10px 2px 10px;
+            // justify-content: space-evenly;
+        }
+
+        .Github {
+            background: #2d3748;
+            color: #fff;
+            margin: 10px;
+            padding: 2px 10px 2px 10px;
+        }
+
+        .Dribble {
+            background: #ed64a6;
+            color: #fff;
+            margin: 10px;
+            padding: 2px 10px 2px 10px;
+        }
+
     }
-    
-    .field {
-        background-color: #EDF2F7;
-        border: none;
-        padding: 1em 10em 1em 1em;
-        border-radius: 5px;
-        margin-top: 10px;
-        width: 100%;
-    
+hr {
+  width: 5%;
+  margin-left: 500px;
+}
+    .line {
+        // margin-top: 1.2rem;
+        margin-top: -10px;
+        font-size: 12.5px;
     }
-    
-    .field:hover {
-        box-shadow: 1px 2px 1px #878787;;
-    }
-    
-    #forgot {
-        color: #1B9CFC;
-        font-weight: 500;
-    }
-    
-    
-    .login {
-        background-color: #2D3748;
-        border: none;
-        color: #FFFFFF;
-        font-size: 14px;
-        border-radius: 5px; 
-        align-items: baseline;
-        margin-top: 10px;
-        padding: 10px 80px;
-        width: 100%;
-    }
-    
-    .login:hover {
-        box-shadow: 1px 2px 1px #878787;;
-    }
-    
-    #arrow {
-        width: 10px;
-    }
-    
-    .note {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    
-    
-    
-    .body {
-        width: 80%;
-        margin: 2rem auto;
-    }
-    
-    .container{
-        box-shadow: 1px 2px 1px #878787;
-        text-align: center;
-        width: 50%;
-    }
+}
+
+.form {
+    margin-top: 2rem;
+
+    .email {
+            display: flex;
+            flex-direction: column;
+          
+          .e-text {
+            margin-bottom: 0.5rem;
+            font-weight: 500;       
+            margin-left: -250px;
+          }
+          
+          .e-inp {
+            background: #edf2f7;
+            border: none;
+            padding: 0.7rem 1rem;
+            border-radius: 10px;
+            margin-right: 100.5px;
+            margin-left: 100px;
+          }
+        }
+
+        .Password {
+          display: flex;
+          flex-direction: column;
+          margin-left: -250px;
+
+          .p-text {
+            margin-bottom: 0.5rem;
+            font-weight: 500;        
+            margin-left: 30px;
+            margin-top: 20px;
+          }
+
+          .fpassword {
+            color: #1b9cfc;
+            font-weight: 500;
+            font-size: 0.9rem;
+            margin-left: 430px;
+            margin-top: -20px;
+          }
+
+          .p-inp {
+            background: #edf2f7;
+            border: none;
+            padding: 0.7rem 1rem;
+            border-radius: 0.5rem;
+            margin-right: 100.5px;
+            margin-left: 350px;
+          }
+        }
+
+                
+        .btn-v {
+          background: #2d3748;
+          color: #fff;
+          padding: 0.8rem 0.6rem;
+          border: none;
+          border-radius: 0.3rem;
+          margin-top: 20px;
+          font-weight: 500;
+          width: 330px;
+          cursor: pointer;
+         margin-left: 30px;
+        }
+
+        .signUp{
+        margin-top: 20px;
+        font-size: 12.5px;
+                      
+         .s-link {
+           color: #1b9cfc;
+          font-weight: 500;
+        }
+                    }
+  }
+}
+
+
+
