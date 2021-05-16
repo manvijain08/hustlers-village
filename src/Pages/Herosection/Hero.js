@@ -17,7 +17,7 @@ function Hero() {
       <spam>your-name</spam></button>
 
         <div>
-          <Link to='/Login' className='s-link'>
+          <Link to='/Login'>
         <button className="start">Start Hustling
         <spam className="hexode">&#x2192;</spam>
         </button> </Link> </div>

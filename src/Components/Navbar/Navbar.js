@@ -5,7 +5,7 @@ import "./Navbar.scss";
 function Login() {
   return (
     <div className="header">
-      <Link to='/' className='s-link'>
+      <Link to='/' >
     <h2 className="heading">Huslters Village</h2> </Link>
       <div className="navbar">
        <Link to="/" className="navelement">Home</Link>
@@ -15,8 +15,9 @@ function Login() {
        <button className="login-button">
           <Link to="/Login"> Log in </Link></button> 
 
-       <button className="Register-button">   Register
-       <spam className="hexode">&#x2192;</spam> </button>
+          <Link to='/Register' > 
+          <button className="Register-button">   Register
+       <spam className="hexode">&#x2192;</spam> </button> </Link>
        </div>
    </div>  
   );
