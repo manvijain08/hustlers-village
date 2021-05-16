@@ -4,16 +4,14 @@
   margin: 50px 200px 50px 430px;
   height: 540px;
   width: 500px;
-
+  display: flex;
+  flex-direction: column;
 
 .Register {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     // justify-content: center;
-    .head-l {
-      margin-top: 50px;
-    }
 
     .social {
         display: flex;
@@ -107,11 +105,6 @@ hr {
     }
     }
   }
-  
-
-
-
-
 
     .email {
             display: flex;
@@ -121,6 +114,7 @@ hr {
             margin-bottom: 0.5rem;
             font-weight: 500;       
             font-size: 12.5px;
+            margin-left: -250px;
           }
           
           .e-inp {
@@ -128,6 +122,8 @@ hr {
             border: none;
             padding: 0.7rem 1rem;
             border-radius: 10px;
+            width: 55%;
+            margin-left: 100px;
           }
         }
 
@@ -140,13 +136,14 @@ hr {
             font-weight: 500;       
             margin-top: 20px;
             font-size: 12.5px;  
+            margin-left: -230px;
           }
 
           .fpassword {
             color: #1b9cfc;
             font-weight: 500;
             font-size: 0.9rem;
-            margin-left: 430px;
+            margin-left: 200px;
             margin-top: -20px;
             font-size: 12.5px;
           }
@@ -156,6 +153,8 @@ hr {
             border: none;
             padding: 0.7rem 1rem;
             border-radius: 0.5rem;
+            width: 55%;
+            margin-left: 100px;
           }
         }
 

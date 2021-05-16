@@ -1,12 +1,8 @@
-body {
-    // background: url("../../Assets/Herovector.svg");
+.Hero-section {
+    background: url("../../Assets/Herovector.svg");
     background-size: cover;
     background-position: center;
     height: 100vh;
-  }
-
-
-.Hero-section {
   
     .head1 {
         text-align: center;
@@ -42,6 +38,7 @@ body {
             border-radius: 5px;
             border: 0px;
             margin-left: 11px;
+            cursor: grab;
         }
     }
 

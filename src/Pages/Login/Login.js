@@ -4,12 +4,13 @@ import Github from '../../Assets/Github.svg';
 import Dribble from '../../Assets/Dribble.svg';
 import { Link } from 'react-router-dom'
 import "./Login.scss"
+import { useState } from 'react';
 
 function Login() {
   return (
-  <div className="card"> 
+  <div className="l-card"> 
     <div className='Register'>
-      <h2 className="head-l">Log in to your Account</h2> 
+      <h2 >Log in to your account</h2> 
        <div className="social">
           <button className="Google">
             <img  src={Google} alt="xyz" />
@@ -27,7 +28,8 @@ function Login() {
    <p className="line">or log in with email</p>
     </div> 
 
-       <form className='form'> 
+   <form className='form'> 
+
        <div className="email">
           <label className='e-text'>Email</label>
          <input className='e-inp' type="email" placeholder="xyz@gmail.com" />
@@ -48,7 +50,7 @@ function Login() {
         </div>
 
         <p className="signUp">
-         Don't have an account on HustlersVillage? 
+         Already have an account? 
         <Link to='/Register' className='s-link'>Sign up</Link>
         </p>
 

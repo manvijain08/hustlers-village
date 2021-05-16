@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.scss";
-// import Herovector from '../../Assets/Herovector.svg';
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -17,9 +17,10 @@ function Hero() {
       <spam>your-name</spam></button>
 
         <div>
+          <Link to='/Login' className='s-link'>
         <button className="start">Start Hustling
         <spam className="hexode">&#x2192;</spam>
-        </button> </div>
+        </button> </Link> </div>
         
       </div>
       <p className="h-para">It's free, and takes less than a minute </p>

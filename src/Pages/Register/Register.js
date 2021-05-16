@@ -9,7 +9,7 @@ function Register() {
   return (
   <div className="card"> 
     <div className='Register'>
-      <h2 className="head-l">Log in to your Account</h2> 
+      <h2 >Register to Hustler Village</h2> 
        <div className="social">
           <button className="Google">
             <img  src={Google} alt="xyz" />
@@ -40,10 +40,6 @@ function Register() {
           </div>
 
      </div>
-       {/* <div className="Name">
-          <label className='e-text'>Name</label>
-         <input className='e-inp' type="Name"/>
-        </div> */}
 
 
        <div className="email">
