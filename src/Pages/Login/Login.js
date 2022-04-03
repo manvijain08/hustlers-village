@@ -4,7 +4,6 @@ import Github from '../../Assets/Github.svg';
 import Dribble from '../../Assets/Dribble.svg';
 import { Link } from 'react-router-dom'
 import "./Login.scss"
-import { useState } from 'react';
 
 class Login extends React.Component {
   constructor(props) {
