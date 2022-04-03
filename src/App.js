@@ -5,7 +5,7 @@ import Ddr from "./Pages/Ddr/Ddr";
 import Login from "./Pages/Login/Login";
 import Navbar from "./Components/Navbar/Navbar";
 import Register from "./Pages/Register/Register";
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
